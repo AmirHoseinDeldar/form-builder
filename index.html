@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/form.png" type="image/x-icon" />
+    <title>فرم ساز</title>
+  </head>
+  <body>
+    <div class="section">
+      <h1>فرم ساز</h1>
+      <div id="survey_options">
+        <input
+          type="text"
+          name="survey_options[]"
+          class="survey_options"
+          size="50"
+          placeholder="name"
+        />
+        <input
+          type="text"
+          name="survey_options[]"
+          class="survey_options"
+          size="50"
+          placeholder="email"
+        />
+        <input
+          type="text"
+          name="survey_options[]"
+          class="survey_options"
+          size="50"
+          placeholder="another field"
+        />
+      </div>
+      <div class="controls">
+        <a href="#" id="add_fields">اضافه</a>
+        <a href="#" id="remove_fields">حذف</a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
